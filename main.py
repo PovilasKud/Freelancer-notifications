@@ -3,8 +3,10 @@ import time
 from freelancer import FreelancerScraper
 from pushbullet import Pushbullet
 
+# CATEGORIES - Pick skills you are interested in freelancer.com and copy link.
 CATEGORIES = 'https://www.freelancer.com/jobs/s-Python-Data_Mining-Web_Scraping-software_development-Django-programming'
-API_KEY = "o.frzQDeiCzKqS6kOB0hLYM0eJACEjfDbg"
+# API_KEY - Get API key from pushbullet.com
+API_KEY = ""
 
 def run():
 
@@ -21,7 +23,7 @@ def run():
             print("- Found new items. Sending push notification -")
             for listing in new_listings:
                 link = listing['link']
-                body = "\n%s\nSKILLS: %s \n<b>BUDGET:</b> %s\nLINK: %s" % (listing['desc'], listing['skills'], listing['budget'], link)
+                body = "\n%s\nSKILLS: %s\nBUDGET: %s\n\nLINK: %s" % (listing['desc'], listing['skills'], listing['budget'], link)
                 title = listing['title']
 
 
