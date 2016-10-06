@@ -16,8 +16,11 @@ Scraping Freelancer.com (for now) in 60 seconds interval for new listings. If ne
 
 #### NOTIFICATIONS
 Desktop notification
+
 ![alt text](http://image.prntscr.com/image/1cb2c54a267a4c28b6b11cd6d19cf5fc.png "Desktop Push Notification")
+
 You can check history
+
 ![alt text](http://image.prntscr.com/image/c9d93c90e4e7448cad1c2d52d604c285.png "View scraped ad history")
 
 
